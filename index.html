@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="icon" href="favicon (1).ico">
+    <title>code names game</title>
+</head>
+<body>
+    <nav>
+        <div class="nav-left">
+            <button class="nav-button">Players <span class="players-count">_</span></button>     
+            <button class="nav-button"><img src="data:image/png;base64,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" alt="clock-icon"></button>
+        </div>
+        <div class="nav-right">
+            <button class="nav-button">Reset Game</button>
+            <button class="nav-button">Rules</button>
+        </div>
+    </nav>
+    <div class="container">
+        <div class="header">
+            <h1>Codenames Game</h1>
+        </div>
+        <div class="game-board">
+            <div class="team red-team">
+                <div class="team-header">
+                    <img src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQzL4MVJ2tMfha008Nehf6RKPBJTNbG_SHQsBupBh7bBWJ8IlyC" alt="Red Spymaster">
+                    <div>
+                        <p>Red Spymaster is playing.</p>
+                        <p>Score: 9</p>
+                    </div>
+                </div> 
+                <p>Operative
+                    _
+                </p>
+                <button class="join-button">Join as Operative</button><br>
+                <p>Spymaster
+                    _
+                </p>
+                <button class="join-button">Join as Spymaster</button>
+            </div>
+            <div class="cards">
+                <div class="card">CENTIPEDE</div>
+                <div class="card">CHAIN</div>
+                <div class="card">RIFLE</div>
+                <div class="card">MUSKETEER</div>
+                <div class="card">SWEAT</div>
+                <div class="card">ROCK</div>
+                <div class="card">RANCH</div>
+                <div class="card">COLUMBUS</div>
+                <div class="card">BATTLESHIP</div>
+                <div class="card">FLOOR</div>
+                <div class="card">BOW</div>
+                <div class="card">COMB</div>
+                <div class="card">COMIC</div>
+                <div class="card">COLLAR</div>
+                <div class="card">FROG</div>
+                <div class="card">CARROT</div>
+                <div class="card">COCONUT</div>
+                <div class="card">HEDGEHOG</div>
+                <div class="card">RUBY</div>
+                <div class="card">BOTTLE</div>
+                <div class="card">RAINBOW</div>
+                <div class="card">WOLF</div>
+                <div class="card">THIEF</div>
+                <div class="card">RICE</div>
+                <div class="card">NOAH</div>
+            </div>
+            <div class="team blue-team">
+                <div class="team-header">
+                    <img src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQw6kHfu8uesQAAV54Q3TunuZu0rGtW_evR1KtfR99ehE7ZKoAR" alt="Blue Spymaster">
+                    <div>
+                        <p>Blue Spymaster is playing.</p>
+                        <p>Score: 8</p>
+                    </div>
+                </div>
+                <p>Operative
+                    _
+                </p>
+                <button class="join-button">Join as Operative</button><br>
+                <p>spymaster
+                   _
+                </p>
+                <button class="join-button">Join as Spymaster</button>
+            </div>
+       </div>
+     </div>
+     <div class="footer">
+        <a class="footer-link" href="https://www.linkedin.com/">LinkedIn</a>
+        <a class="footer-link" href="https://Facebook.com/">Facebook</a>
+        <p class="copyright">@ Saim Ali</p>
+     </div>
+</body>
+</html>

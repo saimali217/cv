@@ -1,0 +1,123 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(11, 88, 114);
+    margin: 0;
+    padding: 0;
+}
+nav {
+   display: flex ;
+   justify-content: space-between;
+    background-color:rgb(11, 88, 114);
+      padding: 10px 20px;
+    color: black;
+}
+.nav-left, .nav-right {
+    display: flex;
+    align-items: center;
+}
+.nav-button {
+    margin-left: 10px;
+    padding: 5px 10px;
+    background-color:yellow;
+    color: black;
+    border: none;
+    cursor: pointer;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+}
+.nav-button img {
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+}
+.nav-button .player-count {
+    margin-left: 5px;
+    background-color:yellow ;
+    color: black;
+    padding: 2px 5px;
+    border-radius: 50%;
+}
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+    background-color: rgb(11, 88, 114);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.game-board {
+    display: flex;
+    justify-content: space-between;
+}
+ .red-team {
+    width: 20%;
+    padding: 10px;
+    background-color:rgb(11, 88, 114);
+    text-align: center;
+    border-radius: 15px;
+}
+.blue-team {
+    background-color:rgb(11, 88, 114);
+}
+.blue-team p{
+    text-align: center;
+}
+.team-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+.team-header img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    margin-right: 10px;
+    margin-left: 15px;
+}
+.join-button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    background-color:yellow;
+    color:black;
+    border: none;
+    border-radius: 19px;
+    cursor: pointer;
+}
+.blue-team .join-button {
+    background-color: yellow;
+    width: 70%;
+    padding: 10px;
+    margin-left: 20px;
+}
+.cards {
+    width: 55%;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 10px;
+    padding: 10px;
+}
+.card {
+    padding: 20px;
+    background-color:rgb(181, 160, 134);
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+.footer {
+    text-align: center;
+    font-size: 1.5rem;
+    margin-top: 20px;  
+}
+.copyright{
+    color: black;
+    font-size: 1.5rem;
+    padding: 20px 0;
+}
